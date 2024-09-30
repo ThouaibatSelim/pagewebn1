@@ -1,50 +1,61 @@
 /*couleur, taille et police(h1)*/
 
-h1 {color:rgb(72, 129, 179);} .small { font-size: xx-small;}
+h1 {color:rgb(72, 129, 179);} 
+.small { font-size: xx-small;}
 
-/*couleur, taille et police p1*/
+/*couleur, taille, police p1*/
 
 p {color:dodgerblue}
 
 .medium {font-size: small;} 
 .medium {font-family:arial}
+.medium {font-style: italic;}
 
 /*couleur (h5)*/
 
-h5 {color: lightgreen;}
+h5 {color: rgb(113, 172, 113);}
 h5 {font-family: forte;}
 
 /* couleur liste 1*/
 
 li {color:forestgreen;}
-li {font-family:Blackadder ITC;}
-/*couleur et police(h2)*/
+li {font-family:algerian;}
 
-h2 {color: red;}
-h2 {font-family:algerian;}
+/*couleur et police et emplacement (h2)*/
 
-/*couleur et police (h3)*/
+h2 {color: rgb(219, 20, 20);}
+h2 {font-family: satisfy;}
+h2 {text-align: center;}
+
+/*couleur, police et sourlignement(h3)*/
 
 h3 {color: rgb(17, 43, 187);}
 h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h3 {text-decoration: underline;}
 
-/*couleur et police (h4)*/
+/*couleur, police et emplacement (h4)*/
 
 h4 {color: darkviolet;}
 h4 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
+.right {text-align: right}
 
-/*couleur et taille liens*/
+/*couleur, police et taille de police liens*/
 
 a {color: rgb(194, 27, 194);}
-
+.name {font-family: Rajdhani;}
 .percent { font-size: 150%;}
+.percent {font-weight: bolder;}
 
-/*couleur et police p2*/
+/*couleur, police et taille de police p2*/
 
 .red{color: rgb(230, 33, 33);} 
+.red{font-size: medium;}
+.red {font-family: Updock;}
+.red {font-weight: bold;}
 
-p {font-size: xx-small;}
+p {font-size:larger;}
 
-/*couleur liste 2*/
+/*couleur, police et taille de police liste 2 */
 
 .brown {color: rgb(80, 28, 28);}
+.brown {font-family: bodoni MT;}
