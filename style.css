@@ -1,6 +1,6 @@
 /*couleur ma 1ere page web (h1)*/
 
-h1 {color:rgb(72, 129, 179);}
+h1 {color:rgb(72, 129, 179);} .small { font-size: xx-small;}
 
 /*couleur p1*/
 
@@ -30,9 +30,13 @@ h4 {color: darkviolet;}
 
 a {color: rgb(194, 27, 194);}
 
+.percent { font-size: 150%;}
+
 /*couleur p2*/
 
-.red{color: rgb(230, 33, 33);}
+.red{color: rgb(230, 33, 33);} 
+
+p {font-size: xx-small;}
 
 /*couleur liste 2*/
 
