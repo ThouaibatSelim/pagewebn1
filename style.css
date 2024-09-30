@@ -1,12 +1,14 @@
-/*couleur ma 1ere page web (h1)*/
+/*couleur et taille (h1)*/
 
 h1 {color:rgb(72, 129, 179);} .small { font-size: xx-small;}
 
-/*couleur p1*/
+/*couleur et taille p1*/
 
 p {color:dodgerblue}
 
-/*couleur entreprise (h5)*/
+.medium {font-size: small;}
+
+/*couleur (h5)*/
 
 h5 {color: lightgreen;}
 
@@ -14,25 +16,25 @@ h5 {color: lightgreen;}
 
 li {color:forestgreen;}
 
-/*couleur nom (h2)*/
+/*couleur (h2)*/
 
 h2 {color: red;}
 
-/*couleur bonjour (h3)*/
+/*couleur (h3)*/
 
 h3 {color: rgb(17, 43, 187);}
 
-/*couleur année et formation (h4)*/
+/*couleur (h4)*/
 
 h4 {color: darkviolet;}
 
-/*couleur liens*/
+/*couleur et taille liens*/
 
 a {color: rgb(194, 27, 194);}
 
 .percent { font-size: 150%;}
 
-/*couleur p2*/
+/*couleur et taille p2*/
 
 .red{color: rgb(230, 33, 33);} 
 
@@ -41,4 +43,3 @@ p {font-size: xx-small;}
 /*couleur liste 2*/
 
 .brown {color: rgb(80, 28, 28);}
-
