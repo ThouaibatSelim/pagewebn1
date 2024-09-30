@@ -1,19 +1,40 @@
+/*couleur ma 1ere page web (h1)*/
+
 h1 {color:rgb(72, 129, 179);}
+
+/*couleur p1*/
 
 p {color:dodgerblue}
 
+/*couleur entreprise (h5)*/
+
 h5 {color: lightgreen;}
+
+/* couleur liste 1*/
 
 li {color:forestgreen;}
 
+/*couleur nom (h2)*/
+
 h2 {color: red;}
+
+/*couleur bonjour (h3)*/
 
 h3 {color: rgb(17, 43, 187);}
 
+/*couleur année et formation (h4)*/
+
 h4 {color: darkviolet;}
+
+/*couleur liens*/
 
 a {color: rgb(194, 27, 194);}
 
+/*couleur p2*/
+
 .red{color: rgb(230, 33, 33);}
 
-ul {color: rgb(80, 28, 28);}
+/*couleur liste 2*/
+
+.brown {color: rgb(80, 28, 28);}
+
