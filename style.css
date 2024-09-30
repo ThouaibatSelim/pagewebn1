@@ -1,32 +1,37 @@
-/*couleur et taille (h1)*/
+/*couleur, taille et police(h1)*/
 
 h1 {color:rgb(72, 129, 179);} .small { font-size: xx-small;}
 
-/*couleur et taille p1*/
+/*couleur, taille et police p1*/
 
 p {color:dodgerblue}
 
-.medium {font-size: small;}
+.medium {font-size: small;} 
+.medium {font-family:arial}
 
 /*couleur (h5)*/
 
 h5 {color: lightgreen;}
+h5 {font-family: forte;}
 
 /* couleur liste 1*/
 
 li {color:forestgreen;}
-
-/*couleur (h2)*/
+li {font-family:Blackadder ITC;}
+/*couleur et police(h2)*/
 
 h2 {color: red;}
+h2 {font-family:algerian;}
 
-/*couleur (h3)*/
+/*couleur et police (h3)*/
 
 h3 {color: rgb(17, 43, 187);}
+h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-/*couleur (h4)*/
+/*couleur et police (h4)*/
 
 h4 {color: darkviolet;}
+h4 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
 
 /*couleur et taille liens*/
 
@@ -34,7 +39,7 @@ a {color: rgb(194, 27, 194);}
 
 .percent { font-size: 150%;}
 
-/*couleur et taille p2*/
+/*couleur et police p2*/
 
 .red{color: rgb(230, 33, 33);} 
 
