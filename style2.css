@@ -1,4 +1,23 @@
-h3 {color: rgb(60, 172, 172);}
+/* couleur, taille et police (h1)*/
+h1 {font-size: 3.5em;}
+h1 {font-family: Montserrat;}
+h1 {color:#A5B4FC ;}
+
+/*taille, police et couleur (li)*/
+li {font-size: 1em;}
+li {font-family: Manrope;}
+ul {color:rgb(151, 11, 216)}
+
+/*couleur taille et police (p)*/
 p {color: rgb(95, 197, 163);}
-h2 {color:crimson}
-ul {color:rgb(216, 113, 11)}
+p {font-size: 1.1em;}
+p {font-family: Manrope;}
+
+/*couleur (h2)*/
+h2 {color:rgb(20, 130, 220)}
+h2 {font-family: Montserrat;}
+
+/*décoration, police et couleur (a)*/
+a {text-decoration:none;}
+a {font-family: Manrope;}
+a {color:rgb(80, 177, 194)}
