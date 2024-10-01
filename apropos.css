@@ -1,0 +1,44 @@
+/* couleur, taille et police (h1)*/
+h1 {font-size: 3.5em;}
+h1 {font-family: Montserrat;}
+h1 {color:#A5B4FC ;}
+
+/*taille, police et couleur (li)*/
+li {font-size: 1em;}
+li {font-family: Manrope;}
+ul {color:rgb(151, 11, 216)}
+
+/*couleur taille et police (p)*/
+p {color: rgb(95, 197, 163);}
+p {font-size: 1.1em;}
+p {font-family: Manrope;}
+
+/*couleur (h2)*/
+h2 {color:rgb(20, 130, 220)}
+h2 {font-family: Montserrat;}
+
+/*décoration, police et couleur (a)*/
+a {text-decoration:none;}
+a {font-family: Manrope;}
+a {color:rgb(6, 7, 7)}
+.ex {color: rgb(114, 114, 194);}
+
+/*taille, décoration couleur des bordures*/
+.pp {border: none; border-style: solid; border-radius: 100% ; border-color: rgb(12, 11, 11);} 
+.pp {border-width: thick; background-color: rgb(197, 243, 239); } 
+.pp {border-top-color: rgb(25, 36, 189);} 
+.pp {border-left-color: rgb(66, 122, 104); border-left-width: 15px ;}
+.pp {border-right-color: rgb(45, 148, 108) ; border-right-width: 15px;} 
+.pp {border-bottom-color: cyan;}
+.pp {padding-bottom: 20px; padding-top: 20px; padding-left: 20px; padding-right: 20px;}
+
+/*couleur, police (p robbie)*/
+.robbie {color: rgb(48, 21, 21); font-family:Montserrat} 
+
+/* police (h3)*/
+h3 {font-family: Montserrat;}
+
+/*couleur et bordure (li 2)*/
+.lens {color: rgb(9, 104, 104);} 
+.lens {padding-top: 10px;}
+.lens {border: initial ; border-style: solid; border-bottom-width: 1px; border-right-width: 1px;} 

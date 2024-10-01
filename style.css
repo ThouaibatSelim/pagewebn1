@@ -1,9 +1,9 @@
-/*couleur, taille et police(h1)*/
+/*couleur, taille et police (h1)*/
 
 h1 {color:rgb(72, 129, 179);} 
 .small { font-size: xx-small;}
 
-/*couleur, taille, police p1*/
+/*couleur, taille, police (p1)*/
 
 p {color:dodgerblue}
 
@@ -39,14 +39,14 @@ h4 {color: darkviolet;}
 h4 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
 .right {text-align: right}
 
-/*couleur, police et taille de police liens*/
+/*couleur, police et taille de police (a)*/
 
 a {color: rgb(194, 27, 194);}
 .name {font-family: Rajdhani;}
 .percent { font-size: 150%;}
 .percent {font-weight: bolder;}
 
-/*couleur, police et taille de police p2*/
+/*couleur, police et taille de police (p2)*/
 
 .red{color: rgb(230, 33, 33);} 
 .red{font-size: medium;}
@@ -59,3 +59,10 @@ p {font-size:larger;}
 
 .brown {color: rgb(80, 28, 28);}
 .brown {font-family: bodoni MT;}
+
+/*décoration, police et couleur bordure 1*/
+.solid {border-style: solid; color: rgb(4, 4, 102); font-family: Righteous; border-width: 5px 5px 5px 5px;}
+
+
+/*décoration, police, taille et couleur bordure 2*/
+.outset {font-size: 0.85em; font-family: Silkscreen; border-style: outset; border-width: thick; color: rgb(216, 6, 216); }
