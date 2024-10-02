@@ -24,13 +24,15 @@ a {color:rgb(6, 7, 7)}
 .ex {color: rgb(114, 114, 194);}
 
 /*taille, décoration couleur des bordures*/
-.pp {border: none; border-style: solid; border-radius: 100% ; border-color: rgb(12, 11, 11);} 
-.pp {border-width: thick; background-color: rgb(197, 243, 239); } 
-.pp {border-top-color: rgb(25, 36, 189);} 
-.pp {border-left-color: rgb(66, 122, 104); border-left-width: 15px ;}
-.pp {border-right-color: rgb(45, 148, 108) ; border-right-width: 15px;} 
-.pp {border-bottom-color: cyan;}
-.pp {padding-bottom: 20px; padding-top: 20px; padding-left: 20px; padding-right: 20px;}
+.pp {border: none; border-style: solid; border-radius: 25%/25% ;} 
+.pp {border-width: thick; background-color: rgb(197, 243, 239); }  
+.pp { border-left-width: 15px ; border-top-left-radius: 100%;}
+.pp { border-right-width: 15px; border-top-right-radius: 100%;} 
+.pp {border-bottom-color: rgb(197, 243, 239); border-top-color: rgb(197, 243, 239); border-left-color: rgb(197, 243, 239); border-right-color: rgb(197, 243, 239);}
+.pp {border-top-left-radius: 30% ; border-top-right-radius: -30%; border-bottom-left-radius: 70% ; border-bottom-right-radius: 52%;}
+.pp {padding-bottom: 200px; padding-top: 150px; padding-left: 11
+    0px; padding-right: 150px;}
+.pp {text-shadow: 3px;}
 
 /*couleur, police (p robbie)*/
 .robbie {color: rgb(48, 21, 21); font-family:Montserrat} 
