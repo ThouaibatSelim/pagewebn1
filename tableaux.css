@@ -1,5 +1,21 @@
-td { 
+/* style, width & color border + font color (td)*/ 
+
+td{ 
     border: 1px black solid; 
     color: red;
 }
-table { border-collapse: collapse;}
+
+/* font color & background color border (th)*/
+
+th {border: 1px black solid; 
+color: rgb(172, 5, 5); background-color: beige;} 
+
+/*appearence & font size (table, caption)*/
+
+table, caption { 
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: x-small;
+}
