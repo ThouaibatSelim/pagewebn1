@@ -1,17 +1,11 @@
-/*bordure footer*/
-footer {border: 5px; border-style: solid; background-color: rgb(46, 182, 182);}
+table {border: 5px; border-style: solid; background-color: rgb(46, 182, 182);}
 
-/*couleur et police (h5)*/
-.er {font-family: lexend;
-     margin-right: 5em;
-    text-decoration: none;
-display: inline-block;}
 
-/*affichage, police et espacement (ul)*/
-ul {
-    display: inline-block; 
-    margin-right: 20em;
+/*police (tr)*/
+tr {
+  
     font-family: lexend; 
+    font-size: small;
 }
 
 /*décoration, couleur et taille (a)*/
@@ -21,8 +15,3 @@ a {
     font-size:small
 }
 
-/* affichage et taille*/
-.cl {
-    display: inline-block; 
-    font-size: x-small; 
-}
