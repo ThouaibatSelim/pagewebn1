@@ -13,18 +13,21 @@
 
 <body>
 
+<h1>Formulaires</h1>
+<br> <br> <br>
+
     <!-- Formulaire -->
 
-    <form action="#">
+    <form action="#" focus>
 
         <!-- Nom  et Prénom-->
 
-        <fieldset class="fd">
+        <fieldset>
             <legend>Vos coordonnées</legend>
         
         <label for="name">Quel est votre nom?</label>
         <input type="name" name="Nom" placeholder="Votre Nom"
-        required minlength="6" maxlength="12" size="30" >
+        required minlength="6" maxlength="12" size="30" focus>
 
          <label for="name">Quel est votre prénom?</label>
          <input type="name" name="Prénom" placeholder="Votre Prénom" 
@@ -45,7 +48,9 @@
 
         <!-- Radio Wish -->
         <form action="">
-            <fieldset> <legend> Votre souhait</legend>
+            <fieldset> 
+                
+                <legend> Votre souhait</legend>
         
         <div class="mn">
         <label for="radio"> Être riche  </label>
@@ -149,8 +154,7 @@
         <!-- Submit -->
         
         <label for="submit"></label>
-        <input type="submit" name="Sauvegarder">
-
+        <input type="submit" value="Envoyer">
 
 
 

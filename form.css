@@ -1,5 +1,5 @@
-/*Font family (form)*/
-form {font-family: Lato;}
+/*Font family (form, h1)*/
+form, h1 {font-family: Lato;}
 
 
 /*border style, background color, width & radius (legend)*/
@@ -15,7 +15,7 @@ legend {
 }
 
 /*border color, width and radius (fieldset)*/
-fieldset{ 
+fieldset { 
     border-color: black;
     border: 3px; border-style: solid;
     background-color: rgb(196, 177, 240);
@@ -29,3 +29,4 @@ fieldset{
      
 }
 
+:focus {background-color: rgb(167, 155, 155);}
