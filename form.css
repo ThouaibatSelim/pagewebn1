@@ -1,5 +1,6 @@
 /*Font family (form)*/
-form {font-family: Lato;}
+form {font-family: Lato;
+display: inline-block}
 
 
 /*border style, background color, width (h5)*/
@@ -18,7 +19,7 @@ margin-right:65em;
 
 /*border color, width and radius (div1)*/
 .ce {
-    margin-right: 10px ;
+    
     border: 10px; border-style: solid;
     background-color: rgb(196, 177, 240);
     border-radius: 5%; 
@@ -34,8 +35,7 @@ margin-right:65em;
 
 
 /* border style, background color, width (div2)*/
-.mn  { margin-right: 10px;
-    display:;
+.mn  {
     border-style: solid;
     background-color: rgb(196, 177, 240);
     border-radius: 5%; 
@@ -46,5 +46,4 @@ margin-right:65em;
     border-bottom-right-radius: 1em;
     padding-bottom: 2em;
     padding-top: 2em;
- 
 }
