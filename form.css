@@ -1,29 +1,38 @@
+<<<<<<< HEAD
 /*Font family (form)*/
 form {font-family: Lato;
 display: inline-block}
+=======
+/*Font family (form, h1)*/
+form, h1 {font-family: Lato;}
+>>>>>>> c799a090587c3953ba5496dd6e33f67a4b846777
 
 
-/*border style, background color, width (h5)*/
-fieldset {border: 0.5px; 
-color: black; 
-border-style: solid;
-background-color: white; 
-border-width: 1px;
-padding-right: -5%;
-border-top-left-radius: 1em; 
-border-bottom-left-radius: 1em;
-border-top-right-radius: 1em;
-border-bottom-right-radius:1em;
-margin-right:65em;
+/*border style, background color, width & radius (legend)*/
+legend {
+    border-radius: 5%;
+    border-style: solid;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius:1em ;
+    background-color: white;
+
 }
 
+<<<<<<< HEAD
 /*border color, width and radius (div1)*/
 .ce {
     
     border: 10px; border-style: solid;
+=======
+/*border color, width and radius (fieldset)*/
+fieldset { 
+    border-color: black;
+    border: 3px; border-style: solid;
+>>>>>>> c799a090587c3953ba5496dd6e33f67a4b846777
     background-color: rgb(196, 177, 240);
     border-radius: 5%; 
-    border-width: thin;
     border-top-left-radius: 1em; 
     border-top-right-radius: 1em;
     border-bottom-left-radius: 1em;
@@ -33,6 +42,7 @@ margin-right:65em;
      
 }
 
+<<<<<<< HEAD
 
 /* border style, background color, width (div2)*/
 .mn  {
@@ -47,3 +57,6 @@ margin-right:65em;
     padding-bottom: 2em;
     padding-top: 2em;
 }
+=======
+:focus {background-color: rgb(241, 245, 34);} 
+>>>>>>> c799a090587c3953ba5496dd6e33f67a4b846777

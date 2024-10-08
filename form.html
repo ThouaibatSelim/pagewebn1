@@ -13,18 +13,21 @@
 
 <body>
 
+<h1>Formulaires</h1>
+<br> <br> <br>
+
     <!-- Formulaire -->
 
-    <form action="#">
+    <form action="#" focus>
 
         <!-- Nom  et Prénom-->
 
-        <fieldset>Vos coordonnées</fieldset>
+        <fieldset>
+            <legend>Vos coordonnées</legend>
         
-        <div class="ce">
         <label for="name">Quel est votre nom?</label>
         <input type="name" name="Nom" placeholder="Votre Nom"
-        required minlength="6" maxlength="12" size="30" >
+        required minlength="6" maxlength="12" size="30" focus>
 
          <label for="name">Quel est votre prénom?</label>
          <input type="name" name="Prénom" placeholder="Votre Prénom" 
@@ -34,9 +37,9 @@
          <label for="name">Quel est votre email?</label>
          <input type="name" name="Prénom" placeholder="Votre Email" 
          required minlength="6" maxlength="12" size="30">
-
+ </fieldset>
 <br> 
-</div>
+
 
     </form>
 
@@ -44,24 +47,29 @@
 
 
         <!-- Radio Wish -->
+<<<<<<< HEAD
         <form action="" class="for">
             <fieldset>Votre souhait </fieldset>
+=======
+        <form action="">
+            <fieldset> 
+                
+                <legend> Votre souhait</legend>
+>>>>>>> c799a090587c3953ba5496dd6e33f67a4b846777
         
         <div class="mn">
         <label for="radio"> Être riche  </label>
         <input type="radio" id="wish" name="wish">
-        <br>
         
         <label for="radio"> Être célèbre  </label>
         <input type="radio" id="age" name="age">
-        <br>
         
         <label for="radio"> Être <strong>encore</strong> plus intelligent  </label>
         <input type="radio" id="age" name="age">
-        <br>
         
         <label for="radio"> Autre </label>
         <input type="radio" id="age" name="age">
+        
 
 <br> <br> <br> <br> <br>
 
@@ -74,7 +82,8 @@
         
         <label for="description">Si "Autre", veuillez préciser: </label>
         <textarea name="description" > </textarea>
-</div>
+</fieldset>
+
 </form>
         <br> <br> <br>
         
@@ -149,9 +158,8 @@
 
         <!-- Submit -->
         
-        <label for="submit">Sauvegarder</label>
-        <input type="submit" name="Sauvegarder">
-
+        <label for="submit"></label>
+        <input type="submit" value="Envoyer">
 
 
 
