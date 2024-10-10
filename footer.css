@@ -1,0 +1,17 @@
+table {border: 5px; border-style: solid; background-color: rgb(46, 182, 182);}
+
+
+/*police (tr)*/
+tr {
+  
+    font-family: lexend; 
+    font-size: small;
+}
+
+/*décoration, couleur et taille (a)*/
+a {
+    text-decoration: none; 
+    color:black; 
+    font-size:small
+}
+

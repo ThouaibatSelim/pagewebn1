@@ -1,0 +1,46 @@
+/* couleur, taille et police (h1)*/
+h1 {font-size: 3.5em;}
+h1 {font-family: Montserrat;}
+h1 {color:#A5B4FC ;}
+
+/*taille, police et couleur (li)*/
+li {font-size: 1em;}
+li {font-family: Manrope;}
+ul {color:rgb(151, 11, 216)}
+
+/*couleur taille et police (p)*/
+p {color: rgb(95, 197, 163);}
+p {font-size: 1.1em;}
+p {font-family: Manrope;}
+
+/*couleur (h2)*/
+h2 {color:rgb(20, 130, 220)}
+h2 {font-family: Montserrat;}
+
+/*décoration, police et couleur (a)*/
+a {text-decoration:none;}
+a {font-family: Manrope;}
+a {color:rgb(6, 7, 7)}
+.ex {color: rgb(114, 114, 194);}
+
+/*taille, décoration couleur des bordures*/
+.pp {border: none; border-style: solid; border-radius: 25%/25% ;} 
+.pp {border-width: thick; background-color: rgb(197, 243, 239); }  
+.pp { border-left-width: 15px ; border-top-left-radius: 100%;}
+.pp { border-right-width: 15px; border-top-right-radius: 100%;} 
+.pp {border-bottom-color: rgb(197, 243, 239); border-top-color: rgb(197, 243, 239); border-left-color: rgb(197, 243, 239); border-right-color: rgb(197, 243, 239);}
+.pp {border-top-left-radius: 30% ; border-top-right-radius: -30%; border-bottom-left-radius: 70% ; border-bottom-right-radius: 52%;}
+.pp {padding-bottom: 200px; padding-top: 150px; padding-left: 11
+    0px; padding-right: 150px;}
+.pp {text-shadow: 3px;}
+
+/*couleur, police (p robbie)*/
+.robbie {color: rgb(48, 21, 21); font-family:Montserrat} 
+
+/* police (h3)*/
+h3 {font-family: Montserrat;}
+
+/*couleur et bordure (li 2)*/
+.lens {color: rgb(9, 104, 104);} 
+.lens {padding-top: 10px;}
+.lens {border: initial ; border-style: solid; border-bottom-width: 1px; border-right-width: 1px;} 
